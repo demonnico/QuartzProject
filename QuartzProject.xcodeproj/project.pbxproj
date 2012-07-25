@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E755EC15BF87C400632344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E755EB15BF87C400632344 /* UIKit.framework */; };
+		64E755EE15BF87C400632344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E755ED15BF87C400632344 /* Foundation.framework */; };
+		64E755F015BF87C400632344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E755EF15BF87C400632344 /* CoreGraphics.framework */; };
+		64E755F615BF87C400632344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64E755F415BF87C400632344 /* InfoPlist.strings */; };
+		64E755F815BF87C400632344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E755F715BF87C400632344 /* main.m */; };
+		64E755FC15BF87C400632344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E755FB15BF87C400632344 /* AppDelegate.m */; };
+		64E755FF15BF87C400632344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E755FE15BF87C400632344 /* ViewController.m */; };
+		64E7560215BF87C400632344 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E7560015BF87C400632344 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64E755E715BF87C400632344 /* QuartzProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E755EB15BF87C400632344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64E755ED15BF87C400632344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64E755EF15BF87C400632344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64E755F315BF87C400632344 /* QuartzProject-Info.plist */ = {isa = PBXFileReference; path = "QuartzProject-Info.plist"; sourceTree = "<group>"; };
+		64E755F515BF87C400632344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64E755F715BF87C400632344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E755F915BF87C400632344 /* QuartzProject-Prefix.pch */ = {isa = PBXFileReference; path = "QuartzProject-Prefix.pch"; sourceTree = "<group>"; };
+		64E755FA15BF87C400632344 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E755FB15BF87C400632344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64E755FD15BF87C400632344 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		64E755FE15BF87C400632344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64E7560115BF87C400632344 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E755E415BF87C400632344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E755EC15BF87C400632344 /* UIKit.framework in Frameworks */,
+				64E755EE15BF87C400632344 /* Foundation.framework in Frameworks */,
+				64E755F015BF87C400632344 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E755DC15BF87C400632344 = {
+			isa = PBXGroup;
+			children = (
+				64E755F115BF87C400632344 /* QuartzProject */,
+				64E755EA15BF87C400632344 /* Frameworks */,
+				64E755E815BF87C400632344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E755E815BF87C400632344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E755E715BF87C400632344 /* QuartzProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E755EA15BF87C400632344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64E755EB15BF87C400632344 /* UIKit.framework */,
+				64E755ED15BF87C400632344 /* Foundation.framework */,
+				64E755EF15BF87C400632344 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64E755F115BF87C400632344 /* QuartzProject */ = {
+			isa = PBXGroup;
+			children = (
+				64E755FA15BF87C400632344 /* AppDelegate.h */,
+				64E755FB15BF87C400632344 /* AppDelegate.m */,
+				64E755FD15BF87C400632344 /* ViewController.h */,
+				64E755FE15BF87C400632344 /* ViewController.m */,
+				64E7560015BF87C400632344 /* ViewController.xib */,
+				64E755F215BF87C400632344 /* Supporting Files */,
+			);
+			path = QuartzProject;
+			sourceTree = "<group>";
+		};
+		64E755F215BF87C400632344 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E755F315BF87C400632344 /* QuartzProject-Info.plist */,
+				64E755F415BF87C400632344 /* InfoPlist.strings */,
+				64E755F715BF87C400632344 /* main.m */,
+				64E755F915BF87C400632344 /* QuartzProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E755E615BF87C400632344 /* QuartzProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E7560515BF87C400632344 /* Build configuration list for PBXNativeTarget "QuartzProject" */;
+			buildPhases = (
+				64E755E315BF87C400632344 /* Sources */,
+				64E755E415BF87C400632344 /* Frameworks */,
+				64E755E515BF87C400632344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzProject;
+			productName = QuartzProject;
+			productReference = 64E755E715BF87C400632344 /* QuartzProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E755DE15BF87C400632344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 64E755E115BF87C400632344 /* Build configuration list for PBXProject "QuartzProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64E755DC15BF87C400632344;
+			productRefGroup = 64E755E815BF87C400632344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E755E615BF87C400632344 /* QuartzProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E755E515BF87C400632344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E755F615BF87C400632344 /* InfoPlist.strings in Resources */,
+				64E7560215BF87C400632344 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E755E315BF87C400632344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E755F815BF87C400632344 /* main.m in Sources */,
+				64E755FC15BF87C400632344 /* AppDelegate.m in Sources */,
+				64E755FF15BF87C400632344 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64E755F415BF87C400632344 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E755F515BF87C400632344 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64E7560015BF87C400632344 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E7560115BF87C400632344 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E7560315BF87C400632344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64E7560415BF87C400632344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E7560615BF87C400632344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzProject/QuartzProject-Prefix.pch";
+				INFOPLIST_FILE = "QuartzProject/QuartzProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64E7560715BF87C400632344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzProject/QuartzProject-Prefix.pch";
+				INFOPLIST_FILE = "QuartzProject/QuartzProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E755E115BF87C400632344 /* Build configuration list for PBXProject "QuartzProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E7560315BF87C400632344 /* Debug */,
+				64E7560415BF87C400632344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E7560515BF87C400632344 /* Build configuration list for PBXNativeTarget "QuartzProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E7560615BF87C400632344 /* Debug */,
+				64E7560715BF87C400632344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E755DE15BF87C400632344 /* Project object */;
+}
