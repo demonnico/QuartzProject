@@ -15,6 +15,11 @@
 		64E755FC15BF87C400632344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E755FB15BF87C400632344 /* AppDelegate.m */; };
 		64E755FF15BF87C400632344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E755FE15BF87C400632344 /* ViewController.m */; };
 		64E7560215BF87C400632344 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E7560015BF87C400632344 /* ViewController.xib */; };
+		64E7560A15BF87DA00632344 /* UIDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E7560915BF87DA00632344 /* UIDrawer.m */; };
+		64E7560C15BF87FD00632344 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E7560B15BF87FD00632344 /* Default.png */; };
+		64E756D815BF9CFF00632344 /* UIDrawerLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756D715BF9CFF00632344 /* UIDrawerLine.m */; };
+		64E756DB15BFA07E00632344 /* UIDrawerDash.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756DA15BFA07E00632344 /* UIDrawerDash.m */; };
+		64E756E215BFBE8F00632344 /* UIDrawerText.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756E115BFBE8F00632344 /* UIDrawerText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,24 @@
 		64E755EB15BF87C400632344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64E755ED15BF87C400632344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64E755EF15BF87C400632344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		64E755F315BF87C400632344 /* QuartzProject-Info.plist */ = {isa = PBXFileReference; path = "QuartzProject-Info.plist"; sourceTree = "<group>"; };
+		64E755F315BF87C400632344 /* QuartzProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzProject-Info.plist"; sourceTree = "<group>"; };
 		64E755F515BF87C400632344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64E755F715BF87C400632344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64E755F915BF87C400632344 /* QuartzProject-Prefix.pch */ = {isa = PBXFileReference; path = "QuartzProject-Prefix.pch"; sourceTree = "<group>"; };
-		64E755FA15BF87C400632344 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E755F915BF87C400632344 /* QuartzProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzProject-Prefix.pch"; sourceTree = "<group>"; };
+		64E755FA15BF87C400632344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64E755FB15BF87C400632344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64E755FD15BF87C400632344 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		64E755FD15BF87C400632344 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		64E755FE15BF87C400632344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64E7560115BF87C400632344 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		64E7560815BF87DA00632344 /* UIDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawer.h; sourceTree = "<group>"; };
+		64E7560915BF87DA00632344 /* UIDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawer.m; sourceTree = "<group>"; };
+		64E7560B15BF87FD00632344 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64E756D615BF9CFE00632344 /* UIDrawerLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawerLine.h; sourceTree = "<group>"; };
+		64E756D715BF9CFF00632344 /* UIDrawerLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerLine.m; sourceTree = "<group>"; };
+		64E756D915BFA07E00632344 /* UIDrawerDash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawerDash.h; sourceTree = "<group>"; };
+		64E756DA15BFA07E00632344 /* UIDrawerDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerDash.m; sourceTree = "<group>"; };
+		64E756E015BFBE8F00632344 /* UIDrawerText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawerText.h; sourceTree = "<group>"; };
+		64E756E115BFBE8F00632344 /* UIDrawerText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,15 @@
 				64E755FB15BF87C400632344 /* AppDelegate.m */,
 				64E755FD15BF87C400632344 /* ViewController.h */,
 				64E755FE15BF87C400632344 /* ViewController.m */,
+				64E7560815BF87DA00632344 /* UIDrawer.h */,
+				64E7560915BF87DA00632344 /* UIDrawer.m */,
+				64E756D615BF9CFE00632344 /* UIDrawerLine.h */,
+				64E756D715BF9CFF00632344 /* UIDrawerLine.m */,
+				64E756D915BFA07E00632344 /* UIDrawerDash.h */,
+				64E756DA15BFA07E00632344 /* UIDrawerDash.m */,
+				64E756E015BFBE8F00632344 /* UIDrawerText.h */,
+				64E756E115BFBE8F00632344 /* UIDrawerText.m */,
+				64E7560B15BF87FD00632344 /* Default.png */,
 				64E7560015BF87C400632344 /* ViewController.xib */,
 				64E755F215BF87C400632344 /* Supporting Files */,
 			);
@@ -150,6 +173,7 @@
 			files = (
 				64E755F615BF87C400632344 /* InfoPlist.strings in Resources */,
 				64E7560215BF87C400632344 /* ViewController.xib in Resources */,
+				64E7560C15BF87FD00632344 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +187,10 @@
 				64E755F815BF87C400632344 /* main.m in Sources */,
 				64E755FC15BF87C400632344 /* AppDelegate.m in Sources */,
 				64E755FF15BF87C400632344 /* ViewController.m in Sources */,
+				64E7560A15BF87DA00632344 /* UIDrawer.m in Sources */,
+				64E756D815BF9CFF00632344 /* UIDrawerLine.m in Sources */,
+				64E756DB15BFA07E00632344 /* UIDrawerDash.m in Sources */,
+				64E756E215BFBE8F00632344 /* UIDrawerText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
