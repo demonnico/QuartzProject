@@ -45,6 +45,8 @@
 		64E756DA15BFA07E00632344 /* UIDrawerDash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerDash.m; sourceTree = "<group>"; };
 		64E756E015BFBE8F00632344 /* UIDrawerText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawerText.h; sourceTree = "<group>"; };
 		64E756E115BFBE8F00632344 /* UIDrawerText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerText.m; sourceTree = "<group>"; };
+		64EA558815C90C4C00ACE067 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		64EA558915C90C4C00ACE067 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,8 @@
 				64E756DA15BFA07E00632344 /* UIDrawerDash.m */,
 				64E756E015BFBE8F00632344 /* UIDrawerText.h */,
 				64E756E115BFBE8F00632344 /* UIDrawerText.m */,
+				64EA558815C90C4C00ACE067 /* Utils.h */,
+				64EA558915C90C4C00ACE067 /* Utils.m */,
 				64E7560B15BF87FD00632344 /* Default.png */,
 				64E7560015BF87C400632344 /* ViewController.xib */,
 				64E755F215BF87C400632344 /* Supporting Files */,
@@ -300,6 +304,7 @@
 				64E7560715BF87C400632344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
