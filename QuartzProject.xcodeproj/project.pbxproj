@@ -20,6 +20,7 @@
 		64E756D815BF9CFF00632344 /* UIDrawerLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756D715BF9CFF00632344 /* UIDrawerLine.m */; };
 		64E756DB15BFA07E00632344 /* UIDrawerDash.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756DA15BFA07E00632344 /* UIDrawerDash.m */; };
 		64E756E215BFBE8F00632344 /* UIDrawerText.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E756E115BFBE8F00632344 /* UIDrawerText.m */; };
+		64EA559115C90ED400ACE067 /* UIDrawerCapJoinWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EA559015C90ED400ACE067 /* UIDrawerCapJoinWidth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		64E756E115BFBE8F00632344 /* UIDrawerText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerText.m; sourceTree = "<group>"; };
 		64EA558815C90C4C00ACE067 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		64EA558915C90C4C00ACE067 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		64EA558F15C90ED400ACE067 /* UIDrawerCapJoinWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawerCapJoinWidth.h; sourceTree = "<group>"; };
+		64EA559015C90ED400ACE067 /* UIDrawerCapJoinWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawerCapJoinWidth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				64E756DA15BFA07E00632344 /* UIDrawerDash.m */,
 				64E756E015BFBE8F00632344 /* UIDrawerText.h */,
 				64E756E115BFBE8F00632344 /* UIDrawerText.m */,
+				64EA558F15C90ED400ACE067 /* UIDrawerCapJoinWidth.h */,
+				64EA559015C90ED400ACE067 /* UIDrawerCapJoinWidth.m */,
 				64EA558815C90C4C00ACE067 /* Utils.h */,
 				64EA558915C90C4C00ACE067 /* Utils.m */,
 				64E7560B15BF87FD00632344 /* Default.png */,
@@ -195,6 +200,7 @@
 				64E756D815BF9CFF00632344 /* UIDrawerLine.m in Sources */,
 				64E756DB15BFA07E00632344 /* UIDrawerDash.m in Sources */,
 				64E756E215BFBE8F00632344 /* UIDrawerText.m in Sources */,
+				64EA559115C90ED400ACE067 /* UIDrawerCapJoinWidth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

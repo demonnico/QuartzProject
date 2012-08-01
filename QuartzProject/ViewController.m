@@ -11,6 +11,7 @@
 #import "UIDrawerLine.h"
 #import "UIDrawerDash.h"
 #import "UIDrawerText.h"
+#import "UIDrawerCapJoinWidth.h"
 
 @interface ViewController ()
 
@@ -31,9 +32,14 @@
 //    [self.view addSubview:drawer];
 //    [drawer release];
     
-      UIDrawerText * drawer = [[UIDrawerText alloc] initWithFrame:CGRectMake(100, 0, 320, 50) content:@"价格：你好啊啊啊啊//n啊啊啊"];
+//      UIDrawerText * drawer = [[UIDrawerText alloc] initWithFrame:CGRectMake(100, 0, 320, 50) content:@"价格：你好啊啊啊啊//n啊啊啊"];
+//      [self.view addSubview:drawer];
+//      [drawer release];
+    
+      UIDrawerCapJoinWidth * drawer = [[UIDrawerCapJoinWidth   alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
       [self.view addSubview:drawer];
       [drawer release];
+
 
 }
 
